@@ -13,11 +13,11 @@ export default defineNuxtConfig({
     },
   },
   ssr: false, // for netlify deploy
-  devtools: { enabled: true },
+  // devtools: { enabled: true },
   modules: [
     // '@nuxtjs/supabase',
     '@vueuse/nuxt',
-    
+    '@tresjs/nuxt',    
     '@nuxt/content',
     '@vueuse/motion/nuxt',
     ['@nuxtjs/google-fonts', {
