@@ -12,10 +12,14 @@ export default defineNuxtConfig({
       ],
     },
   },
+  ui: {
+    icons: 'all'
+  },
   ssr: false, // for netlify deploy
   // devtools: { enabled: true },
   modules: [
     // '@nuxtjs/supabase',
+    '@nuxt/ui',
     '@vueuse/nuxt',
     '@tresjs/nuxt',    
     '@nuxt/content',
